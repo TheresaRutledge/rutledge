@@ -1,0 +1,104 @@
+:root{
+    --blue-color:#A8C9D0;
+    --pink-color:#FCCCCC;
+    --green-color:#889985;
+    --bright-blue:#00AAF0;
+    --hot-pink:#FB51F8;
+    --background:#E7F3EF;
+
+
+
+}
+body{
+    /* background-color: lightgray; */
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("./photos/pexels-miguel-á-padriñán-255379.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header{
+    font-family:"Hachi Maru Pop", cursive;
+    text-align: center;
+}
+
+.title{
+    /* max-width: 75%; */
+    font-size:5rem;
+}
+.nav-link{
+    color:black;
+    font-weight:100;
+    font-size: larger;
+     
+}
+section{
+    display:block;
+    margin:auto;
+}
+
+.img-container{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+.container{
+    border-radius: 8px;
+    margin-top: 10px;
+    /* background-color: var(--background); */
+    opacity: 7;
+}
+.card{
+    margin:5px;
+    align-items: center;
+}
+.img{
+    width:100%;
+ 
+}
+.section-header{
+    width: 100%;
+    margin-top: 3px;
+    /* background-color: white;
+    opacity: .7;
+    border-radius: 8px;; */
+}
+h2{
+    margin-top: 2px;
+    padding-top: 8px;
+}
+
+
+
+.section-background{
+    background-color: white;
+    opacity: .8;
+    border-radius: 8px;
+    min-height: 7rem;
+}
+
+.section-text{
+    text-align: center;
+}
+.registry-link a{
+    color:var(--green-color);
+    font-size: 1.8rem;
+}
+.registry_list{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.bottom-spacer{
+    min-height: 25px;
+}
+
+/* @media only screen and (max-width) */
