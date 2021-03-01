@@ -12,7 +12,7 @@
 body{
     /* background-color: lightgray; */
     font-family: 'Montserrat', sans-serif;
-    background-image: url("./photos/pexels-miguel-á-padriñán-255379.jpg");
+    background-image: url("./photos/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -62,6 +62,7 @@ section{
 }
 .img{
     width:100%;
+    /* max-height:80% ; */
 }
 
 .img:hover{
