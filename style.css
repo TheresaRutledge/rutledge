@@ -147,6 +147,15 @@ h2{
     border-radius: 8px;
     min-height: 7rem;
 }
+.gender-text{
+    color: navy;
+    font-size:5em;
+}
+.gender-background{
+    background-image: url("./photos/gender_backround.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .section-text{
     text-align: center;
