@@ -47,9 +47,11 @@ section{
 
 .img-container{
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-between;
     flex-wrap: wrap;
+
 }
+
 .container{
     border-radius: 8px;
     margin-top: 10px;
