@@ -1,11 +1,17 @@
 
 
-let dueDate = moment("08272021","MMDDYYYY").endOf('day');
+let dueDate = moment("08272021","MMDDYYYY").startOf('day');
 let currentDate = moment();
 let daysLeft = dueDate.diff(moment(),'days');
+let daysPast = currentDate.diff(dueDate,'days') ;
 
-let daysLeftText = document.querySelector("#days-due");
-daysLeftText.innerText  = daysLeft;
+
+
+// let daysLeftText = document.querySelector("#days-due");
+// daysLeftText.innerText  = daysLeft;
+
+let daysPastText = document.querySelector("#days-past");
+daysPastText.innerText = daysPast;
 
 
 // Get the modal
